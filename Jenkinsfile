@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/student-parameterized-build.git'
+                    url: 'https://github.com/Fardin-Faruq/Parameterized-Build-Pipeline'
             }
         }
 
